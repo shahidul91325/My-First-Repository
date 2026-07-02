@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif, sans-serif;
+}
+
+/* Nav section start here */
+.nav {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 110px;
+    height: 70px;
+}
+
+.nav-items ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items ul li {
+    margin-right: 40px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+
+}
+.nav-items a:hover{
+    color: rgba(255, 166, 0, 0.824);
+    border-bottom: 2px solid rgba(255, 166, 0, 0.824);
+    padding-bottom: 20px;
+    transition-duration: 0.5s;
+}
+.nav-button{
+    margin-right: 30px;
+}
+.nav-button button{
+    background-color: transparent;
+    border: 1px solid rgba(255, 166, 0, 0.824);
+    border-radius: 70px;
+    font-size: small;
+    color: rgba(255, 166, 0, 0.824);
+    width:100px;
+    height: 30px;
+}
+/* Nav section ends here  */
+
+/* Hero section starts here  */
+
+.hero{
+
+    color: white;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-image: url(images/hero.png);
+}
+.hero-content{
+    margin-left: 60px;
+   padding-top: 60px;
+}
+.hero-content1{
+  font-family: Italianno;
+  font-size: 40px;
+  color: rgba(255, 166, 0, 0.824);
+}
+.hero-content2{
+    font-size: 50px;
+}
+.hero-content3{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.hero-content4{
+    color: rgba(225, 215, 215, 0.938);
+    font-size: 13px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+.hero-content5{
+    color: white;
+    font-weight: 500;
+    width: 120px;
+    height: 28px;
+    border-radius: 4px;
+    border: 2px solid rgb(244, 174, 43);
+    background-color: rgb(244, 174, 43);
+    margin-right: 5px;
+}
+.hero-content6 i{
+    font-size: 10px;
+    color: rgb(244, 174, 43);
+    margin-right: 10px;
+}
+.hero-content6{
+    color: white;
+    font-weight: 500;
+    width: 120px;
+    height: 28px;
+    border-radius: 4px;
+    border: 1.5px solid rgb(150, 100, 6);
+    background-color: transparent;
+}
